@@ -23,3 +23,9 @@ Thumbs.db
 
 # MacOS
 .DS_Store
+
+# docs
+docs/installation_notes.md
+docs/api_routes.md
+docs/architecture.md
+docs/database.md
