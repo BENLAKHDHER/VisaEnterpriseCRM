@@ -1,8 +1,8 @@
 Architecture Technique
 Vision
-Application CRM Visa Enterprise
+CRM Visa Enterprise
 
-Architecture :
+Architecture générale :
 
 Frontend ↓ FastAPI ↓ Services ↓ Repositories ↓ PostgreSQL
 
@@ -14,12 +14,12 @@ VisaEnterpriseCRM
 Backend
 backend
 
-├── app │ ├── api │ ├── models │ ├── schemas │ ├── services │ ├── repositories │ ├── database │ ├── core │ └── main.py
+├── app │ ├── api ├── models ├── schemas ├── services ├── repositories ├── core ├── database │ └── main.py
 
 Responsabilités
 api
 
-Routes FastAPI
+Routes HTTP
 
 models
 
@@ -35,7 +35,7 @@ Logique métier
 
 repositories
 
-Accès base de données
+Accès aux données
 
 database
 
@@ -43,7 +43,7 @@ Connexion PostgreSQL
 
 core
 
-Configuration globale Sécurité JWT Variables d'environnement
+Configuration JWT Sécurité Variables d'environnement
 
 main.py
 

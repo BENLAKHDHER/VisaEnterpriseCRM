@@ -11,18 +11,47 @@ IDE :
 
 Visual Studio Code
 
-Gestion de version :
+Système :
+
+Windows 11
+
+Versioning :
 
 Git + GitHub
+
+Compte GitHub :
+
+BENLAKHDHER
+
+Auteur Git :
+
+BENLAKHDHER
 
 Python
 Version :
 
 3.15.2
 
-pip :
+Pip :
 
 26.3
+
+Environnement Virtuel
+Nom :
+
+venv
+
+Emplacement :
+
+backend/venv
+
+Création :
+
+py -m venv venv
+
+Activation :
+
+.\venv\Scripts\Activate.ps1
 
 Backend
 Framework :
@@ -35,28 +64,6 @@ FastAPI
 Uvicorn
 SQLAlchemy
 Pydantic
-Environnement Virtuel
-Nom :
-
-venv
-
-Emplacement :
-
-backend/venv
-
-Commande de création :
-
-py -m venv venv
-
-Commande d'activation :
-
-.\venv\Scripts\Activate.ps1
-
-FastAPI
-Serveur de développement :
-
-uvicorn app.main:app --reload
-
 Application :
 
 Visa Enterprise CRM
@@ -65,13 +72,14 @@ Version :
 
 1.0.0
 
+URLs
+Application :
+
+http://127.0.0.1:8000
+
 Documentation Swagger :
 
 http://127.0.0.1:8000/docs
-
-Page principale :
-
-http://127.0.0.1:8000
 
 PostgreSQL
 Version :
@@ -107,12 +115,17 @@ Python embarqué :
 
 3.13.14
 
+Git
+Premier commit :
+
+Initial backend setup and PostgreSQL installation
+
 Statut :
 
-Installé et opérationnel
+Réussi
 
-Création utilisateur PostgreSQL
-Utilisateur :
+Utilisateur applicatif CRM
+Nom :
 
 visa_crm_user
 
@@ -120,6 +133,6 @@ Mot de passe :
 
 VisaCRMUser2026!
 
-Création :
+Statut :
 
-OK
+Créé

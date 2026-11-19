@@ -1,10 +1,6 @@
 API Routes
-État actuel
-Application opérationnelle
-
-Routes existantes
+Routes opérationnelles
 GET /
-
 Réponse :
 
 { "application": "Visa Enterprise CRM", "version": "1.0.0", "status": "running" }

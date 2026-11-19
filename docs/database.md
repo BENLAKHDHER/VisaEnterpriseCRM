@@ -1,5 +1,5 @@
 Database Architecture
-PostgreSQL
+PostgreSQL Server
 Version :
 
 18.7.1
@@ -13,53 +13,11 @@ Nom :
 
 postgres
 
-Usage :
+Utilisation :
 
 Administration PostgreSQL uniquement
 
-Utilisateur Applicatif
-À créer
-
-Nom prévu :
-
-visa_crm_user
-
-Usage :
-
-Application CRM Visa Enterprise
-
-Base de données
-À créer
-
-Nom prévu :
-
-visa_crm
-
-Futures Tables
-roles
-
-users
-
-clients
-
-visa_applications
-
-audit_logs
-
-État actuel
-Connexion PostgreSQL validée.
-
-Arborescence détectée :
-
-Databases
-Login/Group Roles
-Tablespaces
-Prochaine étape :
-
-Création utilisateur applicatif visa_crm_user
-Création base de données visa_crm
-
-Utilisateur applicatif CRM
+Utilisateur Applicatif CRM
 Nom :
 
 visa_crm_user
@@ -72,6 +30,43 @@ Statut :
 
 Créé
 
-Rôle :
+Usage :
 
-Utilisateur dédié au CRM Visa Enterprise
+Base CRM
+Nom :
+
+visa_crm
+
+Owner :
+
+visa_crm_user
+
+Statut :
+
+Créée
+
+Description :
+
+Base principale de l'application VisaEnterpriseCRM
+
+Futures Tables
+roles
+
+users
+
+clients
+
+visa_applications
+
+audit_logs
+
+État du projet
+Connexion PostgreSQL validée
+
+Utilisateur applicatif créé
+
+En attente :
+
+Création de la base visa_crm
+Connexion SQLAlchemy
+Création des tables métier
